@@ -71,7 +71,7 @@
     ),
     url("../img/hero-background.jpg");
   /* background-position: center center; */
-  /* background-position: 0 25%; */
+  background-position: 0 25%;
   background-size: cover;
   /* height: 100vh; */
   height: 90.6vh;
