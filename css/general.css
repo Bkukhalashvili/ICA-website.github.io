@@ -11,12 +11,12 @@ Medium: 500
 Semi-bold: 600
 Bold: 700
 
-
 - COLORS
 
 - Primary: #bb0000
 
 - Tints:
+#fff
 
 - Shades: 
 #000
@@ -38,7 +38,72 @@ html {
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  /* font-family: "Overpass", sans-serif; */
+  font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  /* display: inline-block; */
+
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2px;
+
+  /* Only for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #fff;
+  background-color: #bb0000;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #7b0000;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  color: #bb0000;
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+/* HELPER/SETTINGS CLASSES */
+
+.margin-right-sm {
+  margin-right: 0.4rem !important;
+}
+
+.txt-icon-center {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }

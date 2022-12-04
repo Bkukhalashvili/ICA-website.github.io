@@ -7,7 +7,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: #000;
+  /* background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent); */
   padding: 1.2rem 4.8rem;
+
+  /* position: absolute; */
+  /* width: 100%; */
+  border: none;
 }
 
 .logo {
@@ -51,4 +56,53 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #7b0000;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  background-color: aquamarine;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(199, 199, 199, 0)
+    ),
+    url("../img/hero-background.jpg");
+  /* background-position: center center; */
+  /* background-position: 0 25%; */
+  background-size: cover;
+  /* height: 100vh; */
+  height: 90.6vh;
+  /* padding: 12.8rem 0 9.6rem 0; */
+  padding: 9.6rem 0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  /* padding: 6.4rem 0; */
+  color: #fff;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero-btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn-box-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+  padding: 0 1.6rem;
 }
