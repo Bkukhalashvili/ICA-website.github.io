@@ -73,17 +73,12 @@
   /* background-position: center center; */
   background-position: 0 25%;
   background-size: cover;
-  /* height: 110vh; */
   height: 90.6vh;
-  /* height: 100%; */
-  /* height: 700px; */
   /* padding: 12.8rem 0 9.6rem 0; */
   padding: 9.6rem 0;
 }
 
 .hero {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
   max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
