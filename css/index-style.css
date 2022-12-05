@@ -113,7 +113,7 @@
 /* TRAINING PROGRAM SECTION */
 /**************************/
 
-.training-program {
+.section-training-program {
   padding: 9.6rem 0;
 }
 
@@ -132,4 +132,56 @@
 .training-program-img {
   width: 100%;
   border-radius: 2px;
+}
+
+/**************************/
+/* NEWS SECTION */
+/**************************/
+
+.section-news {
+  padding: 0 0 9.6rem 0;
+  color: #fff;
+}
+
+.news-container {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-bottom: 4.8rem;
+}
+
+.news {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.news:hover {
+  box-shadow: 0 -5px 0 #bb0000;
+}
+
+.news-img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.news:hover img {
+  filter: grayscale(100%);
+}
+
+.news-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  padding: 1.6rem 3.2rem;
+}
+
+.new-concent-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #fff;
+  text-align: center;
+}
+
+.all-news {
+  text-align: center;
+  font-size: 2.4rem;
 }
