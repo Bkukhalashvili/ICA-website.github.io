@@ -101,7 +101,7 @@ body {
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .heading-tertiary {
@@ -181,8 +181,16 @@ body {
   margin-right: 3.2rem !important;
 }
 
+.margin-bottom-sm {
+  margin-bottom: 1.6rem !important;
+}
+
 .center-text {
   text-align: center;
+}
+
+.align-text-right {
+  text-align: right !important;
 }
 
 .txt-icon-center {

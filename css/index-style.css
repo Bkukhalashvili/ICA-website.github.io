@@ -162,6 +162,7 @@
 
 .news-img {
   width: 100%;
+  border-radius: 2px;
   transition: all 0.3s;
 }
 .news:hover img {
@@ -184,4 +185,45 @@
 .all-news {
   text-align: center;
   font-size: 2.4rem;
+}
+
+/**************************/
+/* FEATURED SOLDIER SECTION */
+/**************************/
+
+.section-featured-soldiers {
+  padding: 0 0 9.6rem 0;
+  color: #fff;
+}
+
+.featured-soldier-img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.featured-soldier-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  padding: 1.6rem 3.2rem;
+}
+
+.featured-soldier-name {
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.featured-soldier-quote {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.featured-soldier-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
