@@ -44,9 +44,10 @@ body {
   font-weight: 400;
 
   background-image: url("../img/website-background.jpg");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 /**************************/

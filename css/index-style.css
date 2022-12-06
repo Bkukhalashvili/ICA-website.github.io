@@ -227,3 +227,39 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+.section-cta {
+  background-image: url(../img/cta-background.png);
+  background-position: center center;
+  background-size: cover;
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+  color: #fff;
+}
+
+.cta {
+  display: flex;
+  justify-content: end;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.cta-content {
+  width: 50%;
+}
+
+.cta-text-box {
+  margin: 3rem 0;
+  /* padding: 0 3.2rem; */
+}
+
+.cta-description {
+  font-size: 2rem;
+  line-height: 1.6;
+
+  margin-bottom: 4.8rem;
+}
