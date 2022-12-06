@@ -42,7 +42,8 @@
   font-weight: 500;
   font-size: 2rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
+  align-self: flex-end;
 }
 
 .news-container {
