@@ -63,7 +63,6 @@
 /**************************/
 
 .section-hero {
-  background-color: aquamarine;
   background-image: linear-gradient(
       to right,
       rgb(0, 0, 0),
@@ -83,7 +82,6 @@
   margin: 0 auto;
   padding: 0 3.2rem;
   /* padding: 6.4rem 0; */
-  color: #fff;
 }
 
 .hero-text-box {
@@ -126,7 +124,6 @@
 .training-program-description {
   font-size: 1.8rem;
   line-height: 1.8;
-  color: #fff;
 }
 
 .training-program-img {
@@ -140,7 +137,6 @@
 
 .section-news {
   padding: 0 0 9.6rem 0;
-  color: #fff;
 }
 
 .news-container {
@@ -178,7 +174,6 @@
 .new-concent-text {
   font-size: 1.8rem;
   line-height: 1.8;
-  color: #fff;
   text-align: center;
 }
 
@@ -193,7 +188,6 @@
 
 .section-featured-soldiers {
   padding: 0 0 9.6rem 0;
-  color: #fff;
 }
 
 .featured-soldier-img {
@@ -237,7 +231,6 @@
   background-size: cover;
   padding: 9.6rem 0;
   margin-bottom: 9.6rem;
-  color: #fff;
 }
 
 .cta {
@@ -269,7 +262,6 @@
 
 .footer {
   padding: 12.8rem 0;
-  color: #fff;
   background-color: #000;
 }
 
