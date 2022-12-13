@@ -1,0 +1,45 @@
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/news-hero-background.jpg");
+  background-position: 0 25%;
+  background-size: cover;
+  background-position: center center;
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+/**************************/
+/* GALLERY SECTION */
+/**************************/
+.gallery {
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+
+  /* max-width: 160rem; */
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  margin-bottom: 9.6rem;
+}
+figure img {
+  width: 100%;
+}
