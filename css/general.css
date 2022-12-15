@@ -222,6 +222,10 @@ body {
   color: #bb0000;
 }
 
+.nav-link-here {
+  color: #bb0000;
+}
+
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
@@ -312,6 +316,10 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #bb0000;
+}
+
+.nav-link-here {
+  color: #bb0000 !important;
 }
 
 .no-fear:link,
