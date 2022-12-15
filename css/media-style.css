@@ -34,12 +34,45 @@
   row-gap: 3rem;
   grid-template-columns: repeat(5, 1fr);
 
-  /* max-width: 160rem; */
+  /* max-width: 140rem; */
   padding: 0 3.2rem;
   margin: 0 auto;
 
   margin-bottom: 9.6rem;
 }
+
+figure {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+figure:hover {
+  box-shadow: 0 -5px 0 #bb0000;
+}
+
+.gallery-item-description {
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 600;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s;
+}
+figure:hover .gallery-item-description {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
 figure img {
   width: 100%;
+  transition: all 0.3s;
+}
+figure:hover img {
+  filter: grayscale(100%);
 }
