@@ -51,6 +51,9 @@
 /**************************/
 /* MORE WAYS SECTION */
 /**************************/
+.section-more-ways {
+  padding-bottom: 9.6rem;
+}
 .more-ways-header {
   margin-bottom: 4.8rem;
 }
@@ -67,7 +70,7 @@
   margin: 0 auto;
 
   /* background-image: linear-gradient(rgba(0, 0, 0, 0), #000); */
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
 
 .card {
@@ -161,7 +164,7 @@
 /**************************/
 
 .section-join-us {
-  padding: 4.8rem 0 12.8rem;
+  padding: 0 0 12.8rem;
 }
 
 .join-us-form {
