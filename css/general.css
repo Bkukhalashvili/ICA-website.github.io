@@ -176,6 +176,10 @@ body {
   width: 2.4rem;
 }
 
+.background-black {
+  background-color: #000;
+}
+
 /**************************/
 /* HEADER */
 /**************************/
