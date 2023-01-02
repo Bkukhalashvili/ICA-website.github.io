@@ -3,13 +3,18 @@
 /**************************/
 
 .section-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/news-hero-background.jpg"); */
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.99),
+      rgba(0, 0, 0, 0)
+    ),
     url("../img/news-hero-background.jpg");
   background-position: 0 25%;
   background-size: cover;
   background-position: center center;
   padding: 9.6rem 0;
-  margin-bottom: 9.6rem;
 }
 
 .hero {
@@ -28,17 +33,20 @@
 /**************************/
 /* GALLERY SECTION */
 /**************************/
+
+.section-gallery {
+  padding: 9.6rem 0;
+}
+
 .gallery {
   display: grid;
   column-gap: 3rem;
   row-gap: 3rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
   /* max-width: 140rem; */
   padding: 0 3.2rem;
   margin: 0 auto;
-
-  margin-bottom: 9.6rem;
 }
 
 figure {
@@ -51,9 +59,10 @@ figure {
   transition: all 0.3s;
 }
 figure:hover {
-  box-shadow: 0 -5px 0 #bb0000;
+  /* box-shadow: 0 -5px 0 #bb0000; */
+  box-shadow: -5px 5px 0 #bb0000;
+  transform: translate(0.5rem, -0.5rem);
 }
-
 .gallery-item-description {
   position: absolute;
   font-size: 1.8rem;
@@ -74,5 +83,21 @@ figure img {
   transition: all 0.3s;
 }
 figure:hover img {
-  filter: grayscale(100%);
+  filter: brightness(50%);
+}
+
+/**************************/
+/* END SECTION */
+/**************************/
+
+.section-end {
+  height: 9.6rem;
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("/img/end-section-background.jpg");
+  background-position: center center;
+  background-size: cover;
 }
