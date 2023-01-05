@@ -21,8 +21,8 @@
 }
 
 .hero {
-  /* max-width: 130rem; */
-  max-width: 85%;
+  max-width: 130rem;
+  /* max-width: 85%; */
   margin: 0 auto;
   padding: 0 3.2rem;
   /* padding: 6.4rem 0; */
@@ -151,7 +151,7 @@
 /**************************/
 .section-cta {
   background-image: url(../img/cta-background.png);
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
   /* background-position: 60% 25%; */
   /* padding: 9.6rem 0; */
@@ -163,8 +163,8 @@
 .cta {
   display: flex;
   justify-content: end;
-  /* max-width: 130rem; */
-  max-width: 85%;
+  max-width: 130rem;
+  /* max-width: 85%; */
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -201,6 +201,10 @@
   background-color: #bb0000;
   border-color: #bb0000 !important;
 }
+
+/**************************/
+/* END SECTION */
+/**************************/
 
 .section-end {
   height: 9.6rem;
