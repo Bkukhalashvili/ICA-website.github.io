@@ -1,0 +1,141 @@
+/**************************/
+/* BELOW 1290px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 80em) {
+  .section-cta {
+    background-position: 100%;
+    /* background-position: center center;
+    background-repeat: no-repeat; */
+    /* background-size: contain; */
+  }
+  .cta-content {
+    width: 55%;
+  }
+}
+
+/**************************/
+/* BELOW 1190px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 74em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .news-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 6.4rem;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+
+  /* .section-cta {
+    background-position: 100%;
+  } */
+}
+
+/**************************/
+/* BELOW 1075px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 67em) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .featured-soldier {
+    width: 60%;
+    margin: auto;
+  }
+  .section-cta {
+    background-position: 50%;
+    /* background-position: center; */
+    /* background-size: auto; */
+  }
+}
+
+/**************************/
+/* BELOW 828px (tablets) */
+/**************************/
+
+@media (max-width: 52em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .hero-text-box {
+    width: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 774px (Smaller tablets) */
+/**************************/
+@media (max-width: 48em) {
+  .section-hero {
+    background-position: center center;
+  }
+  .cta-background {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .section-cta {
+    background-image: none;
+    background-color: #000;
+  }
+  .cta-content {
+    width: 100%;
+  }
+  .section-end {
+    background-image: linear-gradient(
+        to top,
+        rgb(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("/img/end-section-background.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  .footer {
+    padding: 9.6rem 0 12.8rem 0;
+    background-color: #000;
+  }
+  /* .hero {
+    background-image: url(../img/cta-background.png);
+    background-size: cover;
+  } */
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 650px (Phones) */
+/**************************/
