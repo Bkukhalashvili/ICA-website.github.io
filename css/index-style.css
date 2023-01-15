@@ -149,8 +149,6 @@
 /* CTA SECTION */
 /**************************/
 .cta-background {
-  width: 100%;
-  height: 35rem;
   background-image: url(/img/cta-background.png);
   background-size: cover;
 
