@@ -1,6 +1,42 @@
 /**************************/
+/* NAVIGATION */
+/**************************/
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #bb0000;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/**************************/
 /* HERO SECTION */
 /**************************/
+.hero-background {
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(199, 199, 199, 0)
+    ),
+    url("/img/hero-background.jpg");
+  background-size: cover;
+
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
 
 .section-hero {
   background-image: linear-gradient(
@@ -121,7 +157,7 @@
 }
 
 .featured-soldier-content {
-  padding: 1.6rem 3.2rem;
+  padding: 1.2rem 2.4rem;
 }
 
 .featured-soldier-name {
@@ -151,6 +187,7 @@
 .cta-background {
   background-image: url(/img/cta-background.png);
   background-size: cover;
+  background-position: 16%;
 
   pointer-events: none;
   visibility: hidden;
@@ -191,7 +228,22 @@
   margin-bottom: 4.8rem;
 }
 
-.btn--cta {
+.btn--cta,
+.btn--cta:link,
+.btn--cta:visited {
+  /* display: inline-block; */
+
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2px;
+
+  /* Only for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   color: #fff;
   /* color: ; */
   /* background-color: #bb0000; */
@@ -202,7 +254,8 @@
   transition: all 0.3s;
 }
 
-.btn--cta:hover {
+.btn--cta:hover,
+.btn--cta:active {
   /* color: #bb0000; */
   background-color: #bb0000;
   border-color: #bb0000 !important;

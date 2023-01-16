@@ -91,16 +91,19 @@
   .section-hero {
     background-position: center center;
   }
+  .section-news {
+    padding: 6.4rem 0;
+  }
+  .section-cta {
+    background-image: none;
+    background-color: #000;
+  }
   .cta-background {
     width: 100%;
     height: 35rem;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-  }
-  .section-cta {
-    background-image: none;
-    background-color: #000;
   }
   .cta-content {
     width: 100%;
@@ -136,8 +139,165 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
 }
 
 /**************************/
 /* BELOW 650px (Phones) */
 /**************************/
+
+@media (max-width: 40em) {
+  .btn.news-btn,
+  .btn.news-btn:link,
+  .btn.news-btn:visited {
+    display: inline-block;
+    /* padding: 1.6rem 30rem; */
+    width: 100%;
+    /* height: 5px; */
+  }
+  .btn--outline:hover,
+  .btn--outline:active {
+    /* color: #bb0000; */
+    background-color: #bb0000;
+    border-color: #bb0000 !important;
+    padding: 1.6rem 3.2rem;
+  }
+  .btn--cta,
+  .btn--cta:link,
+  .btn--cta:visited {
+    display: inline-block;
+    width: 100%;
+  }
+  .grid {
+    row-gap: 6.4rem;
+  }
+  .section-hero {
+    background-image: none;
+    background-color: #000;
+  }
+  .hero-background {
+    width: 100%;
+    height: 40rem;
+    background-position: 80%;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .hero-text-box {
+    width: 100%;
+  }
+  .news {
+    width: 100%;
+  }
+  .section-featured-soldiers {
+    padding: 0 0 6.4rem 0;
+  }
+  .featured-soldier {
+    width: 100%;
+    margin: auto;
+  }
+  .featured-soldier-content {
+    padding: 1.6rem 3.2rem;
+  }
+  .cta-text-box {
+    padding: 0;
+  }
+}
+
+/**************************/
+/* BELOW 385px (Phones S) */
+/**************************/
+
+@media (max-width: 24em) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+  .hero {
+    padding: 0 1.6rem;
+  }
+  .section-news {
+    padding: 4.8rem 0;
+  }
+  .cta {
+    padding: 0 2.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 1600px (2k) */
+/**************************/
+
+@media (min-width: 100em) {
+  html {
+    font-size: 80%;
+  }
+  .container {
+    max-width: 78.5%;
+  }
+}
