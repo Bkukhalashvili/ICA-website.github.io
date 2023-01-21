@@ -93,11 +93,26 @@
 
 @media (max-width: 40em) {
   html {
-    font-size: 40%;
+    /* font-size: 40%; */
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
   }
 
   .section-apod {
     padding: 4.8rem 2.4rem 9.6rem 2.4rem;
+  }
+
+  .image-of-the-day {
+    width: 90%;
   }
 }
 
@@ -107,7 +122,19 @@
 
 @media (max-width: 30em) {
   html {
-    font-size: 35%;
+    /* font-size: 35%; */
+  }
+  .image-of-the-day {
+    width: 100%;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    padding: 0 2.4rem 9.6rem 2.4rem;
   }
 }
 
