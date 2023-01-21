@@ -207,6 +207,13 @@
 /**************************/
 
 @media (max-width: 40em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    width: 50%;
+    text-align: center;
+  }
+
   .btn.news-btn,
   .btn.news-btn:link,
   .btn.news-btn:visited {
