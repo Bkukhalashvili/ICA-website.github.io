@@ -93,9 +93,18 @@
 
 @media (max-width: 40em) {
   html {
-    font-size: 40%;
+    /* font-size: 40%; */
+  }
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
   }
 
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
   .news-container {
     padding: 0 2.4rem;
   }
@@ -124,7 +133,29 @@
 
 @media (max-width: 30em) {
   html {
-    font-size: 35%;
+    /* font-size: 35%; */
+  }
+  .news-img {
+    display: none;
+  }
+  /* .news-content-date {
+    font-size: 2rem;
+  }
+  .news-content-title {
+    font-size: 3rem;
+  }
+  .news-content-more:link,
+  .news-content-more:visited {
+    font-size: 2.6rem;
+    padding: 3.6rem 0 0 0; */
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    padding: 0 2.4rem;
   }
 }
 
