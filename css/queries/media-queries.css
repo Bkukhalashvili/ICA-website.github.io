@@ -1,3 +1,7 @@
+/**************************/
+/* BELOW 1184px (Laptop L) */
+/**************************/
+
 @media (max-width: 74em) {
   html {
     /* 9px / 16px  */
@@ -5,7 +9,7 @@
   }
 }
 /**************************/
-/* BELOW 1075px (Landscape Tablets) */
+/* BELOW 1072px (Laptop) */
 /**************************/
 
 @media (max-width: 67em) {
@@ -26,7 +30,7 @@
 }
 
 /**************************/
-/* BELOW 1015px (tablets) */
+/* BELOW 832px (Laptop) */
 /**************************/
 
 @media (max-width: 52em) {
@@ -38,8 +42,9 @@
     padding: 4.8rem 0 9.6rem 0;
   }
 }
+
 /**************************/
-/* BELOW 768px (Smaller tablets) */
+/* BELOW 768px (Tablet) */
 /**************************/
 @media (max-width: 48em) {
   .gallery {
@@ -128,7 +133,7 @@
 }
 
 /**************************/
-/* BELOW 640px (Phones) */
+/* BELOW 640px (Tablet) */
 /**************************/
 
 @media (max-width: 40em) {
@@ -138,7 +143,7 @@
 }
 
 /**************************/
-/* BELOW 425px (Phones) */
+/* BELOW 432px (Mobile L) */
 /**************************/
 
 @media (max-width: 27em) {
@@ -146,6 +151,10 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/**************************/
+/* BELOW 384px (Mobile M / Mobile S) */
+/**************************/
 
 @media (max-width: 24em) {
   html {
@@ -157,7 +166,7 @@
 }
 
 /**************************/
-/* BELOW 1600px (2k) */
+/* ABOVE 1600px (2k / 4k) */
 /**************************/
 
 @media (min-width: 100em) {

@@ -1,5 +1,5 @@
 /**************************/
-/* BELOW 1290px (Smaller desktops) */
+/* BELOW 1280px (Laptop L) */
 /**************************/
 
 @media (max-width: 80em) {
@@ -12,7 +12,7 @@
 }
 
 /**************************/
-/* BELOW 1190px (Landscape Tablets) */
+/* BELOW 1184px (Laptop L) */
 /**************************/
 
 @media (max-width: 74em) {
@@ -35,7 +35,7 @@
 }
 
 /**************************/
-/* BELOW 1075px (Landscape Tablets) */
+/* BELOW 1072px (Laptop) */
 /**************************/
 
 @media (max-width: 67em) {
@@ -62,7 +62,7 @@
 }
 
 /**************************/
-/* BELOW 828px (tablets) */
+/* BELOW 832px (Laptop) */
 /**************************/
 
 @media (max-width: 52em) {
@@ -76,7 +76,7 @@
 }
 
 /**************************/
-/* BELOW 774px (Smaller tablets) */
+/* BELOW 768px (Tablet) */
 /**************************/
 @media (max-width: 48em) {
   .section-hero {
@@ -195,7 +195,7 @@
 }
 
 /**************************/
-/* BELOW 650px (Phones) */
+/* BELOW 640px (Tablet / Phone L) */
 /**************************/
 
 @media (max-width: 40em) {
@@ -264,7 +264,7 @@
 }
 
 /**************************/
-/* BELOW 385px (Phones S) */
+/* BELOW 384px (Mobile M / Mobile S) */
 /**************************/
 
 @media (max-width: 24em) {
@@ -286,7 +286,7 @@
 }
 
 /**************************/
-/* BELOW 1600px (2k) */
+/* ABOVE 1600px (2k / 4k) */
 /**************************/
 
 @media (min-width: 100em) {

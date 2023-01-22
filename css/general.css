@@ -265,6 +265,31 @@ body {
   background-color: #7b0000;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.mobile-nav-logo {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #bb0000;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**************************/
 /* FOOTER */
 /**************************/

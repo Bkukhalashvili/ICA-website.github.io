@@ -1,5 +1,5 @@
 /**************************/
-/* BELOW 1184px (Smaller desktops) */
+/* BELOW 1184px (Laptop L) */
 /**************************/
 
 @media (max-width: 74em) {
@@ -48,6 +48,10 @@
   }
 }
 
+/**************************/
+/* BELOW 1072px (Laptop) */
+/**************************/
+
 @media (max-width: 67em) {
   .heading-primary {
     font-size: 4.8rem;
@@ -60,6 +64,10 @@
     font-size: 2.4rem;
   }
 }
+
+/**************************/
+/* BELOW 832px (Laptop) */
+/**************************/
 
 @media (max-width: 52em) {
   html {
@@ -76,7 +84,7 @@
 }
 
 /**************************/
-/* BELOW 764px (Smaller tablets) */
+/* BELOW 768px (Tablet) */
 /**************************/
 
 @media (max-width: 48em) {
@@ -179,7 +187,7 @@
 }
 
 /**************************/
-/* BELOW 480px (Phones) */
+/* BELOW 480px (Tablet / Phone L) */
 /**************************/
 
 @media (max-width: 30em) {
@@ -192,6 +200,10 @@
   }
 }
 
+/**************************/
+/* BELOW 384px (Mobile M / Mobile S) */
+/**************************/
+
 @media (max-width: 24em) {
   html {
     font-size: 40%;
@@ -202,7 +214,7 @@
 }
 
 /**************************/
-/* BELOW 1600px (2k) */
+/* ABOVE 1600px (2k / 4k) */
 /**************************/
 
 @media (min-width: 100em) {
