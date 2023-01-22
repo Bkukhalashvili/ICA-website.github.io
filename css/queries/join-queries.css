@@ -142,7 +142,7 @@
     /* -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); */
     position: absolute;
-    top: -15rem;
+    top: -5rem;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -165,6 +165,16 @@
 
     /* 3) Hide it from screen readers */
     visibility: hidden;
+  }
+
+  .mobile-nav-logo {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .logo {
+    height: 6rem;
   }
 
   .nav-open .main-nav {
