@@ -32,19 +32,16 @@
 /**************************/
 
 .section-hero {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/news-hero-background.jpg"); */
-  background-position: 0 25%;
-  background-size: cover;
-  background-position: center center;
-  padding: 9.6rem 0;
-
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.99),
       rgba(0, 0, 0, 0)
     ),
     url("../img/news-hero-background.jpg");
+  background-position: 0 25%;
+  background-size: cover;
+  background-position: center center;
+  padding: 9.6rem 0;
 }
 
 .hero {
@@ -86,21 +83,13 @@
   max-width: 90rem;
   padding: 0 3.2rem;
   margin: 0 auto;
-  /* display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem; */
-  /* grid-template-columns: repeat(2, 1fr); */
-
   margin-bottom: 6rem;
 }
 
 .news {
   display: flex;
-  /* background-color: rgba(0, 0, 0, 0.6); */
   border-radius: 2px;
-  /* margin-bottom: 3rem; */
   padding: 3rem 0;
-  /* border-bottom: 2px solid rgba(0, 0, 0, 0.3); */
   border-bottom: 2px solid #bb0000;
 }
 
@@ -116,7 +105,6 @@
 
 .news-content {
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.6); */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -157,7 +145,6 @@
 /**************************/
 
 .section-end {
-  height: 9.6rem;
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.2),
@@ -166,4 +153,5 @@
     url("/img/end-section-background.jpg");
   background-position: center center;
   background-size: cover;
+  height: 9.6rem;
 }

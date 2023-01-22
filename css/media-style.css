@@ -32,8 +32,6 @@
 /**************************/
 
 .section-hero {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/news-hero-background.jpg"); */
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.99),

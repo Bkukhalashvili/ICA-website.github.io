@@ -32,8 +32,6 @@
 /**************************/
 
 .section-hero {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/news-hero-background.jpg"); */
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.99),
@@ -69,16 +67,6 @@
   padding: 9.6rem 3.2rem;
 }
 
-/* .training-program-text-box {
-  padding: 0 3.2rem;
-} */
-
-.test {
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  /* border-radius: 2px; */
-  /* padding: 2.4rem 3.2rem; */
-}
-
 .training-program-description {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -104,25 +92,14 @@
 
 .cards {
   display: grid;
-  /* column-gap: 3rem;
-  row-gap: 3rem; */
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.6rem;
-  /* row-gap: 9.6rem; */
-  /* max-width: 900rem; */
-  /* padding: 0 3.2rem; */
   margin: 0 auto;
-
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0), #000); */
-  /* margin-bottom: 9.6rem; */
 }
 
 .card {
-  /* background-image: url(../img/cards-img.jpg);
-  max-height: 20rem; */
   position: relative;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   max-width: 50rem;
   transition: all 0.7s;
@@ -131,13 +108,10 @@
 }
 
 .card:hover {
-  /* transform: scaleY(10px); */
   transform: translateY(-2.4rem);
-  /* filter: brightness(100%); */
 }
 
 .card:hover .card-img {
-  /* transform: scaleY(10px); */
   filter: brightness(90%);
 }
 
@@ -155,9 +129,8 @@
   padding: 1.6rem 3.2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0), #000);
   padding-bottom: 9.2rem;
-  /* transform: translate(0, 100); */
 }
-.testingg {
+.card-content-flex-end {
   align-self: flex-end;
 }
 .card-sub-title {
@@ -184,8 +157,6 @@
 .card-button,
 .card-button:link,
 .card-button:visited {
-  /* display: inline-block; */
-
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
@@ -193,7 +164,6 @@
   padding: 1.2rem 4.8rem;
   border-radius: 2px;
 
-  /* Only for .btn */
   cursor: pointer;
   font-family: inherit;
   background-color: transparent;
@@ -262,7 +232,6 @@
   font-size: 1.6rem;
   font-weight: 500;
   margin-left: 0.9rem;
-  /* margin-bottom: 1.2rem; */
 }
 .radio-btns div {
   display: flex;
@@ -278,29 +247,21 @@
 
   border: 1px solid #fff;
   transition: 0.2s all linear;
-
-  /* position: relative; */
-  /* top: 4px; */
 }
 
 .radio-btns input:checked {
-  /* border: 1px solid #bb0000; */
   background-color: #bb0000;
 }
 
 .btn--form {
   color: #fff;
-  /* color: ; */
-  /* background-color: #bb0000; */
   background-color: transparent;
 
-  /* border: 1px solid #bb0000; */
   border: 1px solid #fff;
   transition: all 0.3s;
 }
 
 .btn--form:hover {
-  /* color: #bb0000; */
   background-color: #bb0000;
   border-color: #bb0000;
 }
@@ -310,7 +271,6 @@
 /**************************/
 
 .section-end {
-  height: 9.6rem;
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.2),
@@ -319,4 +279,5 @@
     url("/img/end-section-background.jpg");
   background-position: center center;
   background-size: cover;
+  height: 9.6rem;
 }

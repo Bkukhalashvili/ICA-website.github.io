@@ -51,23 +51,16 @@
       rgba(199, 199, 199, 0)
     ),
     url("../img/hero-background.jpg");
-  /* background-position: center center; */
   background-position: 0 25%;
   background-size: cover;
-  /* height: 90.6vh; */
-  /* padding: 12.8rem 0 9.6rem 0; */
-  /* padding: 9.6rem 0; */
   padding: 6% 0 9% 0;
-
   box-shadow: 0 30px 70px #000;
 }
 
 .hero {
   max-width: 130rem;
-  /* max-width: 85%; */
   margin: 0 auto;
   padding: 0 3.2rem;
-  /* padding: 6.4rem 0; */
 }
 
 .hero-text-box {
@@ -201,19 +194,13 @@
 }
 .section-cta {
   background-image: url(../img/cta-background.png);
-  /* background-position: center center; */
   background-size: cover;
-  /* background-position: 60% 25%; */
-  /* padding: 9.6rem 0; */
-  /* padding: 2% 0 2% 0; */
   padding: 3% 0 5% 0;
-  /* margin-bottom: 9.6rem; */
 }
 .cta {
   display: flex;
   justify-content: end;
   max-width: 130rem;
-  /* max-width: 85%; */
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -237,8 +224,6 @@
 .btn--cta,
 .btn--cta:link,
 .btn--cta:visited {
-  /* display: inline-block; */
-
   font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
@@ -246,23 +231,18 @@
   padding: 1.6rem 3.2rem;
   border-radius: 2px;
 
-  /* Only for .btn */
   border: none;
   cursor: pointer;
   font-family: inherit;
   color: #fff;
-  /* color: ; */
-  /* background-color: #bb0000; */
   background-color: transparent;
 
-  /* border: 1px solid #bb0000; */
   border: 1px solid #fff !important;
   transition: all 0.3s;
 }
 
 .btn--cta:hover,
 .btn--cta:active {
-  /* color: #bb0000; */
   background-color: #bb0000;
   border-color: #bb0000 !important;
 }

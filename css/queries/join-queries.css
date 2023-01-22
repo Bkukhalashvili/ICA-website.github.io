@@ -26,31 +26,21 @@
   .cards {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 1.6rem;
-    /* column-gap: 9.6rem; */
-    /* row-gap: 6.4rem; */
   }
 
   .card {
     max-width: 29.7rem;
-
-    /* max-width: 40rem; */
   }
 
   .card:nth-child(1) {
     grid-column: 1;
     grid-row: 1 / -3;
-    /* max-height: 52.8rem; */
     align-self: center;
-    /* grid-column: 2; */
-    /* grid-row: 2; */
   }
   .card:nth-child(3) {
     grid-column: 3;
     grid-row: -3 / -1;
-    /* max-height: 52.8rem; */
     align-self: center;
-    /* grid-column: 2; */
-    /* grid-row: 2; */
   }
 
   .card:nth-child(4) {
@@ -113,10 +103,6 @@
     padding: 9.6rem 0 12.8rem 0;
     background-color: #000;
   }
-  /* .hero {
-    background-image: url(../img/cta-background.png);
-    background-size: cover;
-  } */
   .grid--footer {
     grid-template-columns: repeat(6, 1fr);
   }
@@ -139,8 +125,6 @@
 
   .main-nav {
     background-color: #000;
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
     position: absolute;
     top: -5rem;
     left: 0;
@@ -153,17 +137,8 @@
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
     opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-
-    /* 3) Hide it from screen readers */
     visibility: hidden;
   }
 
@@ -208,9 +183,6 @@
 /**************************/
 
 @media (max-width: 30em) {
-  html {
-    /* font-size: 39%; */
-  }
   .cards {
     grid-template-columns: 1fr;
   }

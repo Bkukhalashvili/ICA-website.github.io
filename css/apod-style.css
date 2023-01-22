@@ -32,19 +32,17 @@
 /**************************/
 
 .section-hero {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/news-hero-background.jpg"); */
-  background-position: 0 25%;
-  background-size: cover;
-  background-position: center center;
-  padding: 9.6rem 0;
-
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.99),
       rgba(0, 0, 0, 0)
     ),
     url("../img/news-hero-background.jpg");
+
+  background-position: 0 25%;
+  background-size: cover;
+  background-position: center center;
+  padding: 9.6rem 0;
 }
 
 .hero {
@@ -111,7 +109,6 @@
 /**************************/
 
 .section-end {
-  height: 9.6rem;
   background-image: linear-gradient(
       to top,
       rgb(0, 0, 0, 0.2),
@@ -120,4 +117,5 @@
     url("/img/end-section-background.jpg");
   background-position: center center;
   background-size: cover;
+  height: 9.6rem;
 }
