@@ -7,7 +7,7 @@
       rgb(0, 0, 0),
       rgba(199, 199, 199, 0)
     ),
-    url("/img/hero-background.jpg");
+    url("/img/index-images/hero-background.jpg");
   background-size: cover;
 
   pointer-events: none;
@@ -21,7 +21,7 @@
       rgb(0, 0, 0),
       rgba(199, 199, 199, 0)
     ),
-    url("../img/hero-background.jpg");
+    url("/img/index-images/hero-background.jpg");
   background-position: 0 25%;
   background-size: cover;
   padding: 6% 0 9% 0;
@@ -155,7 +155,7 @@
 /* CTA SECTION */
 /**************************/
 .cta-background {
-  background-image: url(/img/cta-background.png);
+  background-image: url("/img/index-images/cta-background.jpg");
   background-size: cover;
   background-position: 16%;
 
@@ -164,7 +164,7 @@
   opacity: 0;
 }
 .section-cta {
-  background-image: url(../img/cta-background.png);
+  background-image: url("/img/index-images/cta-background.jpg");
   background-size: cover;
   padding: 3% 0 5% 0;
 }
