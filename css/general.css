@@ -45,11 +45,6 @@ body {
   font-weight: 400;
   color: #fff;
 
-  background-image: url("/img/index-images/index-page-background.jpg");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   position: relative;
   overflow-x: hidden;
 }

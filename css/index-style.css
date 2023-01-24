@@ -1,4 +1,15 @@
 /**************************/
+/* BODY */
+/**************************/
+main {
+  background-image: url("/img/index-images/index-page-background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/**************************/
 /* HERO SECTION */
 /**************************/
 .hero-background {
