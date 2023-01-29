@@ -46,6 +46,12 @@
 .training-program-img {
   width: 100%;
   border-radius: 2px;
+
+  transition: all 0.5s;
+}
+
+.training-program-img:hover {
+  transform: scale(1.05);
 }
 
 /**************************/
@@ -181,7 +187,6 @@
   color: inherit;
   border: 1px solid #fff;
   background-color: transparent;
-  /* border-radius: 9px; */
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
