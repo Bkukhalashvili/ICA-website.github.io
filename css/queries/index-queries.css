@@ -246,7 +246,7 @@
     width: 100%;
   }
   .news {
-    width: 100%;
+    width: 85%;
   }
   .section-featured-soldiers {
     padding: 0 0 6.4rem 0;
@@ -254,9 +254,6 @@
   .featured-soldier {
     width: 100%;
     margin: auto;
-  }
-  .featured-soldier-content {
-    padding: 1.6rem 3.2rem;
   }
   .cta-text-box {
     padding: 0;
@@ -279,6 +276,9 @@
   }
   .section-news {
     padding: 4.8rem 0;
+  }
+  .news {
+    width: 100%;
   }
   .cta {
     padding: 0 2.4rem;
