@@ -2,7 +2,7 @@
 /* BODY */
 /**************************/
 main {
-  background-image: url("/img/index-images/index-page-background.jpg");
+  background-image: url("img/index-images/index-page-background.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -18,7 +18,7 @@ main {
       rgb(0, 0, 0),
       rgba(199, 199, 199, 0)
     ),
-    url("/img/index-images/hero-background.jpg");
+    url("img/index-images/hero-background.jpg");
   background-size: cover;
 
   pointer-events: none;
@@ -32,7 +32,7 @@ main {
       rgb(0, 0, 0),
       rgba(199, 199, 199, 0)
     ),
-    url("/img/index-images/hero-background.jpg");
+    url("img/index-images/hero-background.jpg");
   background-position: 0 25%;
   background-size: cover;
   padding: 6% 0 9% 0;
@@ -166,7 +166,7 @@ main {
 /* CTA SECTION */
 /**************************/
 .cta-background {
-  background-image: url("/img/index-images/cta-background.jpg");
+  background-image: url("img/index-images/cta-background.jpg");
   background-size: cover;
   background-position: 16%;
 
@@ -175,7 +175,7 @@ main {
   opacity: 0;
 }
 .section-cta {
-  background-image: url("/img/index-images/cta-background.jpg");
+  background-image: url("img/index-images/cta-background.jpg");
   background-size: cover;
   padding: 3% 0 5% 0;
 }

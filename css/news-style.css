@@ -121,7 +121,7 @@
       rgb(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/img/end-section-background.jpg");
+    url("img/end-section-background.jpg");
   background-position: center center;
   background-size: cover;
   height: 9.6rem;
