@@ -15,7 +15,7 @@ function apod() {
                         </a>`;
 
   const videoSection = `<div class="video-div"> 
-                          <iframe class="video-link" src="" frameborder="0"></iframe>
+                          <iframe class="video-link" src="" frameborder="0" allow="fullscreen"></iframe>
                         </div>`;
 
   let newDate = "&date=" + dateInput.value + "&";
@@ -57,7 +57,7 @@ function apod() {
       fetch(url + apiKey + newDate)
         .then((response) => response.json())
         .then((json) => {
-          console.log(json);
+          // console.log(json);
           displayData(json);
         });
     } catch (error) {
@@ -81,7 +81,7 @@ function apod() {
 
     if (data.media_type == "video") {
       mediaSection.innerHTML = videoSection;
-      document.querySelector("video-link").src = data.url;
+      document.querySelector(".video-link").src = data.url;
     } else {
       mediaSection.innerHTML = imageSection;
       document.querySelector(".hd-img").href = data.hdurl;
