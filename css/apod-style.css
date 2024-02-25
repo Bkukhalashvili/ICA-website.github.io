@@ -55,6 +55,15 @@
   width: 80%;
 }
 
+.video-div {
+  height: 50rem;
+}
+
+.video-link {
+  width: 90%;
+  height: 100%;
+}
+
 .apod-info {
   font-size: 1.8rem;
   line-height: 1.8;

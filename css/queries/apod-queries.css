@@ -7,12 +7,20 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
+
+  /* .video-div {
+    height: max-content;
+  } */
 }
 
 /**************************/
 /* BELOW 768px (Tablet) */
 /**************************/
 @media (max-width: 48em) {
+  .video-div {
+    height: 40rem;
+  }
+
   .footer {
     padding: 9.6rem 0 12.8rem 0;
     background-color: #000;
@@ -116,6 +124,10 @@
   .image-of-the-day {
     width: 90%;
   }
+
+  .video-div {
+    height: 30rem;
+  }
 }
 
 /**************************/
@@ -125,6 +137,10 @@
 @media (max-width: 30em) {
   .image-of-the-day {
     width: 100%;
+  }
+
+  .video-div {
+    height: 20rem;
   }
 }
 
@@ -151,10 +167,5 @@
   }
   .container {
     max-width: 78.5%;
-  }
-
-  .apod-media-container {
-    width: 80%;
-    margin: 0 auto;
   }
 }
