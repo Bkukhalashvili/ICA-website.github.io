@@ -152,9 +152,6 @@
   html {
     font-size: 40%;
   }
-  .container {
-    padding: 0 2.4rem 9.6rem 2.4rem;
-  }
 }
 
 /**************************/
@@ -163,7 +160,7 @@
 
 @media (min-width: 100em) {
   html {
-    font-size: 80%;
+    font-size: 66%;
   }
   .container {
     max-width: 78.5%;
